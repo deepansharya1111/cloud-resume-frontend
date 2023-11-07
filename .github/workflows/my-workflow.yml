@@ -20,6 +20,6 @@ jobs:
         uses: google-github-actions/upload-cloud-storage@v1
         with:
           path: '/frontend'
-          destination: ${{ secrets.GCS_BUCKET_NAME }}
+          bucket: ${{ secrets.GCS_BUCKET_NAME }}
       - name: Synchronize public directory to GCS
         run: gsutil -m rsync -d -c -r public gs://${{ secrets.GCS_BUCKET_NAME }}
