@@ -23,4 +23,4 @@ jobs:
         uses: google-github-actions/setup-gcloud@v1
         
       - name: Synchronize public directory to GCS
-        run: gsutil -m rsync -d -c -r frontend gs://resume.deepansh.app
+        run: gsutil -m rsync -d -c -r frontend gs://${{ secrets.GCS_BUCKET_NAME }}
