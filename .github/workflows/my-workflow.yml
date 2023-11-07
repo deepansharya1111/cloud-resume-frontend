@@ -17,4 +17,4 @@ jobs:
           service_account: ${{ secrets.GCP_SA_EMAIL }}
           credentials_json: ${{ secrets.GCP_SA_KEY }}
       - name: Synchronize public directory to GCS
-        run: gsutil -m rsync -d -c -r public gs://resume.deepansh.app
+        run: gsutil -m rsync -d -c -r frontend gs://resume.deepansh.app
