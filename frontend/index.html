@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
 
 <head>
@@ -174,14 +174,13 @@
                 <li>Implemented HTTPS using AWS Cloudfront and Google Cloud Load Balancer with SSL certificate using respective Certificate Managers.
                 <li>Configured DNS using Amazon Route 53.
                 <li>Implemented weighted round robin routing policy to distribute traffic between AWS and GCP by 50%. 
-                    <a href="https://hosting-checker.net/websites/deepansh.app" target="_blank" class="project__link">View Server</a>.
+                    <!--<a href="https://hosting-checker.net/websites/deepansh.app" target="_blank" class="project__link">View Server</a>-->. 
                 <li>Cached static content using AWS CloudFront and Google Cloud CDN.
                 <li>Maintained codebase (JavaScript, HCL, Python) in GitHub repository.
                 <li>Orchestrated a complete CI/CD pipeline across source control, build, package, and testing using GitHub Actions and Google Cloud Build & AWS CloudFront.
-                <li>Implemented application visitors counter persisted in DynamoDB table and configured REST API
-                    endpoint to update it using AWS Lambda.
+                <li>Implemented application visitors counter persisted in DynamoDB table and configured an AWS Lambda function to update it using Python.
                 <li>(todo) Integrate unit tests and end-to-end tests (Cypress) into the pipeline.
-                <li>(todo) Implement the Lambda function using Python and write tests for the Python code.
+                
                 <li>(todo) Use Terraform to deploy the application.
                     <br>
                     <br>
@@ -308,7 +307,7 @@
         </ul>
         <br>
         <h2 id="resume">Resume Download</h2>
-        <a href="https://storage.googleapis.com/resume.deepansh.app/Deepansh-Singh-Resume.pdf" target="_blank"
+        <a href="https://s3.amazonaws.com/deepansh.app/Deepansh-Singh-Resume.pdf" target="_blank"
             class="project__link">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(149, 149, 149, 1);">
                 <path d="m13 3 3.293 3.293-7 7 1.414 1.414 7-7L21 11V3z"></path><path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"></path>
