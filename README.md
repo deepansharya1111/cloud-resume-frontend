@@ -12,20 +12,20 @@ This repository contains the frontend code for the Cloud Resume Challenge. The w
 
 ## Repository Structure
 
-cloud-resume-frontend/
-├── .github/workflows/
-│   ├── aws-workflow.yaml
-│   ├── gcp-workflow.yml
-├── frontend/
-│   ├── index.html
-│   ├── 404.html
-│   ├── Deepansh-Singh-Resume.pdf
-│   ├── images/
-│   ├── css/
-│   ├── js/
-│   ├── nsfw/
-├── README .md
-└── ...
+cloud-resume-frontend/<br>
+‎ ├── .github/workflows/<br>
+‎ ‎ │‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ├── aws-workflow.yaml<br>
+‎‎‎ ‎ │‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ├── gcp-workflow.yml<br>
+‎ ├── frontend/<br>
+‎ ‎ ‎│‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ├── index.html<br>
+‎ ‎ │‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ├── 404.html<br>
+‎ ‎ │‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ├── Deepansh-Singh-Resume.pdf<br>
+‎ ‎ │‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ├── images/<br>
+‎ ‎ │‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ├── css/<br>
+‎ ‎ │‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ├── js/<br>
+‎ ‎ │‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ├── nsfw/<br>
+‎ ‎├── README .md<br>
+└── ...<br>
 
 - **.github/workflows/**: Contains GitHub Actions workflows for deploying to GCS and S3.
   - `aws-workflow.yaml`: GitHub Actions workflow for deploying to AWS S3.
