@@ -18,7 +18,7 @@ function fetchCount() {
           document.getElementById("visits").innerHTML = xhttp.responseText;
       }
   };
-  xhttp.open("GET", "https://m5qmeogrl3imi326otb6hfujrm0xbmiu.lambda-url.us-east-1.on.aws/", true);
+  xhttp.open("GET", "https://pew2kg2hrxjcouoe4vzxeay3iy0msjxf.lambda-url.us-east-1.on.aws/", true);
   xhttp.send();
 }
 
